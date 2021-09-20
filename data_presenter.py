@@ -74,9 +74,9 @@ for data in cupcake_invoices:
 
   
 
-print(f'chocolate cupcake total is {chocolate_cupcakes}!')
-print(f'Vanilla cupcake total is {vanilla_cupcakes}!')
-print(f'Strawberry cupcake total is {strawberry_cupcakes}!')
-print(cupcake_total)
+print(f'chocolate cupcake total: {chocolate_cupcakes}!')
+print(f'Vanilla cupcake total: {vanilla_cupcakes}!')
+print(f'Strawberry cupcake total: {strawberry_cupcakes}!')
+print(f'The total amount of all the Cupcakes: {cupcake_total}!')
 
 cupcake_invoices.close()
